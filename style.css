@@ -401,6 +401,13 @@ img{
     color: var(--text-color);
 }
 
+@media screen and (max-width: 768px){
+    .projects_img .projects_data{
+        bottom: 0;
+    }
+}
+
+
 @media screen and (min-width: 768px){
    .nav_menu{
     width: var(--nav-width);
